@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.project.whiztrail1.AppTest" time="16.165" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.project.whiztrail1.AppTest" time="26.09" errors="1" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="E:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5930444869800457116.tmp"/>
+    <property name="classworlds.conf" value="E:\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2707377738191158871.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_131/jre/bin/server;C:/Program Files/Java/jdk1.8.0_131/jre/bin;C:/Program Files/Java/jdk1.8.0_131/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Skype\Phone\;D:\apache-maven-3.5.0\bin;C:\Users\Santosh\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,5 +61,85 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.project.whiztrail1.AppTest" name="hello" time="16.165"/>
+  <testcase classname="com.project.whiztrail1.AppTest" name="hello" time="26.09">
+    <error message="Failed to decode response from marionette
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
+System info: host: &apos;RAVINDRA&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Santosh\AppData\Local\Temp\rust_mozprofile.CkAcC6iDxCY2, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.3, moz:processID=4648, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 0641484d-0fba-4553-b01c-8fcd82f1e2f5" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.5.2&apos;, revision: &apos;10229a9&apos;, time: &apos;2017-08-21T17:29:55.15Z&apos;
+System info: host: &apos;RAVINDRA&apos;, ip: &apos;192.168.0.100&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\Santosh\AppData\Local\Temp\rust_mozprofile.CkAcC6iDxCY2, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=55.0.3, platformVersion=6.3, moz:processID=4648, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 0641484d-0fba-4553-b01c-8fcd82f1e2f5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:698)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:527)
+	at com.project.whiztrail1.AppTest.hello(AppTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-err>1504260307874	geckodriver	INFO	geckodriver 0.18.0
+1504260307891	geckodriver	INFO	Listening on 127.0.0.1:3316
+1504260308363	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args [&quot;-marionette&quot;]
+1504260310529	addons.xpi	WARN	Error parsing extensions state: [Exception... &quot;Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]&quot;  nsresult: &quot;0x80520012 (NS_ERROR_FILE_NOT_FOUND)&quot;  location: &quot;JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596&quot;  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 &lt; getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 &lt; checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 &lt; startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 &lt; callProvider()@resource://gre/modules/AddonManager.jsm:271 &lt; _startProvider()@resource://gre/modules/AddonManager.jsm:741 &lt; startup()@resource://gre/modules/AddonManager.jsm:908 &lt; startup()@resource://gre/modules/AddonManager.jsm:3122 &lt; observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1504260311757	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Santosh\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 1668] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1504260322747	Marionette	INFO	Listening on port 60063
+1504260323211	Marionette	DEBUG	loaded listener.js
+1504260323328	Marionette	INFO	Listening on port 60063
+Sep 01, 2017 3:35:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1504260323753	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1504260327235	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1504260327236	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1504260327363	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;http://localhost/whiztrial/&quot;
+1504260327384	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;http://localhost/whiztrial/&quot;
+Unable to read VR Path Registry from C:\Users\Santosh\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4648] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Santosh\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GPU 1668] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1504260332456	geckodriver::marionette	ERROR	Failed to kill browser process
+</system-err>
+  </testcase>
 </testsuite>
